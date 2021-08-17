@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+.container {
+  margin-left: 50px;
+}
+
+.input {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-list_item {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.country-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+
+.country-name {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.country-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.country-lang_item {
+  font-weight: 600;
+}
+
+.country-img {
+  width: 440px;
+  height: 335px;
+  margin-right: 25px;
+}
+
+body {
+  background-color: #81F7F3;
+}
+
+img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
