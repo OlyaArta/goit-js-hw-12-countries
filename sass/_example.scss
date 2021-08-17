@@ -1,0 +1,64 @@
+.container {
+    margin-left: 50px;
+}
+
+.input {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.country-list {
+    list-style: none;
+}
+
+.country-list_item {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.country-name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.country-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+p {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.country-lang_item {
+   //margin-left: 50px;
+   font-weight: 600;
+}
+
+.country-img {
+    width: 440px;
+    height: 335px;
+    margin-right: 25px;
+}
+
+body {
+   background-color: #81F7F3;
+}
+
+img {
+   max-width: 100%;
+}
