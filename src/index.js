@@ -18,6 +18,10 @@ refs.input.addEventListener('input', _(onSearch, 1000));
 
 function onSearch(e) {
     const searchQuery = e.target.value;
+
+    if (searchQuery.trim === '') {
+        return;
+    }
     
     API.fetchCountry(searchQuery)
         .then((countries) => {
@@ -38,14 +42,14 @@ function onSearch(e) {
                 });
                 return;
             };
-            if  (!countries) {
+            /*if  (!countries) {
                 error({
                     title: `Error`,
                     styling: 'brighttheme',
                     delay: 2000,
                 });
                 return countries.json();
-            };
+            };*/
             if  (countries.length >= 2 && countries.length <= 10) {
                 const countriesHTML = countryList(countries);
                 refs.countriesList.innerHTML = countriesHTML;
